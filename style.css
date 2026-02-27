@@ -17,7 +17,7 @@ body {
 .container {
     width: 400px;
     height: 300px;
-    background-color: #2f5fa7; /* azul oscuro suave */
+    background-color: #3527F5; /* azul oscuro suave */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
