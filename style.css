@@ -38,8 +38,8 @@ body {
 
 /* Figuras */
 .shape {
-    width: 50px;
-    height: 50px;
+    width: 50px !important;
+    height: 50px !important;
 }
 
 /* Círculos (NO óvalos) */
