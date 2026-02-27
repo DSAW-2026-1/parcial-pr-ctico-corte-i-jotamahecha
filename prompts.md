@@ -4,3 +4,5 @@ ahora vamos a trabajar en el CSS, debes darle color al fondo del contenedor azul
 
 
 listo, ya tenemos nuestros 8 elementos en la pantalla, ahora usando flexbox debes ordenarlo para que que tal como te lo pedi, recuerda, en cada esquina de contenedor debe haber 2 elementos, te hare un pequeño diagrama sobre como debe verse [cudrado][circulo] [circulo][cuadrado] [circulo][cuadrado] [cuadrado][circulo] se debe ver asi, debe ser un CIRCULO, no puede ser un obalo, debe ser un circulo ordenalo de tal forma que quedan organizados asi los 8 elementos en toda la pantalla
+
+por ultimo, haciendo uso de la pagina htmlcolorcodes.com intente dar el color correcto a el dibujo
