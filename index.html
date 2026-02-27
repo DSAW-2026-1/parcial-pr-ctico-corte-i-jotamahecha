@@ -2,42 +2,40 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Flexbox Layout</title>
+    <title>Flexbox Shapes</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="contenedor">
+<div class="container">
 
-        <header>
-            <!-- Esquina superior izquierda -->
-            <div class="group">
-                <div class="shape square"></div>
-                <div class="shape circle"></div>
-            </div>
+    <!-- FILA SUPERIOR -->
+    <div class="row top">
+        <div class="group left">
+            <div class="shape square"></div>
+            <div class="shape circle"></div>
+        </div>
 
-            <!-- Esquina superior derecha -->
-            <div class="group">
-                <div class="shape circle"></div>
-                <div class="shape square"></div>
-            </div>
-        </header>
-
-        <footer>
-            <!-- Esquina inferior izquierda -->
-            <div class="group">
-                <div class="shape circle"></div>
-                <div class="shape square"></div>
-            </div>
-
-            <!-- Esquina inferior derecha -->
-            <div class="group">
-                <div class="shape square"></div>
-                <div class="shape circle"></div>
-            </div>
-        </footer>
-
+        <div class="group right">
+            <div class="shape circle"></div>
+            <div class="shape square"></div>
+        </div>
     </div>
+
+    <!-- FILA INFERIOR -->
+    <div class="row bottom">
+        <div class="group left">
+            <div class="shape circle"></div>
+            <div class="shape square"></div>
+        </div>
+
+        <div class="group right">
+            <div class="shape square"></div>
+            <div class="shape circle"></div>
+        </div>
+    </div>
+
+</div>
 
 </body>
 </html>
