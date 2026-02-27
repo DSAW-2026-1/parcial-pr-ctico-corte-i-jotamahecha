@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centrar contenedor en pantalla */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ececec;
+}
+
+/* Contenedor */
+.container {
+    width: 400px;
+    height: 300px;
+    background-color: #12219A; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Filas */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Grupos de esquina */
+.group {
+    display: flex;
+    gap: 10px;
+}
+
+/* Figuras */
+.shape {
+    width: 50px;
+    height: 50px;
+}
+
+/* Círculos (CÍRCULOS reales) */
+.circle {
+    background-color: #f4b6cf; /* rosado suave */
+    border-radius: 50%;
+}
+
+/* Cuadrados */
+.square {
+    background-color: #a9cdee; /* azul claro */
+}

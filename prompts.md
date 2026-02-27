@@ -1,0 +1,8 @@
+chat, debes crear un contenedor de 400px por 300px, debe estar centrado vertical y horizontalmente en la pantalla. Debe estar conectado el index.html con style.css .crea 4 elementos en header y 4 elementos con footer, estas deben estar en las esquinas, es decir deben haber 2 elementos en cada esquina de la pantalla, a estos eslementos dale etiquetas de circulos y cuadrados, 4 circulos y 4 cuadrados. Algo importante, que debes tener en cuenta es que el dibujo que estmos haciendo debe ir dentro de ese contenedor de 400px por 300px
+
+ahora vamos a trabajar en el CSS, debes darle color al fondo del contenedor azul oscuro pero no tan oscuro. para la parte de arriba la secuencia de figuras es cuadrado, circulo, cuadrado, circulo. En la parte de abajo debes invertir el orden, es decir, circulo, cuadrado, circulo, cuadrado. los circulos deben llevar un color rosado no muy fuerte y los cuadrados un azul claro, intenta seguir una paleta de colores, deben ser CIRCULOS, no obalos. RECUERDA, todo esto debe ir en contenedor, no fuera de el
+
+
+listo, ya tenemos nuestros 8 elementos en la pantalla, ahora usando flexbox debes ordenarlo para que que tal como te lo pedi, recuerda, en cada esquina de contenedor debe haber 2 elementos, te hare un pequeño diagrama sobre como debe verse [cudrado][circulo] [circulo][cuadrado] [circulo][cuadrado] [cuadrado][circulo] se debe ver asi, debe ser un CIRCULO, no puede ser un obalo, debe ser un circulo ordenalo de tal forma que quedan organizados asi los 8 elementos en toda la pantalla
+
+por ultimo, haciendo uso de la pagina htmlcolorcodes.com intente dar el color correcto a el dibujo
