@@ -4,35 +4,33 @@
     box-sizing: border-box;
 }
 
-/* Fondo blanco fuera del dibujo */
+/* Centrar contenedor en pantalla */
 body {
     height: 100vh;
-    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #e6e6e6;
 }
 
-/* CONTENEDOR 400 x 300 */
-.contenedor {
+/* Contenedor */
+.container {
     width: 400px;
     height: 300px;
-    background-color: #1f3a5f; /* azul oscuro suave */
+    background-color: #1f3b5c; /* azul oscuro suave */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
-    border-radius: 6px;
 }
 
-/* Header y footer */
-header,
-footer {
+/* Filas */
+.row {
     display: flex;
     justify-content: space-between;
 }
 
-/* Grupos por esquina */
+/* Grupos de esquina */
 .group {
     display: flex;
     gap: 10px;
@@ -40,17 +38,17 @@ footer {
 
 /* Figuras */
 .shape {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
-/* Círculos PERFECTOS */
+/* Círculos (NO óvalos) */
 .circle {
-    background-color: #f2a7c6; /* rosado pastel */
+    background-color: #f2a1c2; /* rosado suave */
     border-radius: 50%;
 }
 
 /* Cuadrados */
 .square {
-    background-color: #9ec5e8; /* azul claro */
+    background-color: #9cc7e8; /* azul claro */
 }
