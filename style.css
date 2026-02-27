@@ -4,14 +4,13 @@
     box-sizing: border-box;
 }
 
-/* Fondo general */
+/* Fondo */
 body {
     height: 100vh;
-    background-color: #1f3a5f; /* azul oscuro suave */
+    background-color: #1f3a5f;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
 /* Contenedor central */
@@ -26,72 +25,46 @@ body {
     border-radius: 8px;
 }
 
-/* Header y footer */
+/* HEADER y FOOTER como FLEX */
 header,
 footer {
     position: fixed;
     width: 100%;
+    display: flex;
+    justify-content: space-between; /* esquinas */
+    padding: 20px;
+}
+
+/* Footer abajo */
+footer {
+    bottom: 0;
+}
+
+/* Header arriba */
+header {
+    top: 0;
+}
+
+/* Grupos por esquina */
+header > div,
+footer > div {
+    display: flex;
+    gap: 10px;
 }
 
 /* Figuras */
 .shape {
     width: 40px;
     height: 40px;
-    position: fixed;
 }
 
-/* Círculos (perfectos) */
+/* Círculos PERFECTOS */
 .circle {
-    background-color: #f2a7c6; /* rosado pastel */
+    background-color: #f2a7c6;
     border-radius: 50%;
 }
 
 /* Cuadrados */
 .square {
-    background-color: #9ec5e8; /* azul claro */
-}
-
-/* Posiciones generales */
-.top {
-    top: 20px;
-}
-
-.bottom {
-    bottom: 20px;
-}
-
-/* ----- SECUENCIA ARRIBA -----
-   cuadrado, círculo, cuadrado, círculo */
-.top.left.square {
-    left: 20px;
-}
-
-.top.left.circle {
-    left: 70px;
-}
-
-.top.right.square {
-    right: 70px;
-}
-
-.top.right.circle {
-    right: 20px;
-}
-
-/* ----- SECUENCIA ABAJO (invertida) -----
-   círculo, cuadrado, círculo, cuadrado */
-.bottom.left.circle {
-    left: 20px;
-}
-
-.bottom.left.square {
-    left: 70px;
-}
-
-.bottom.right.circle {
-    right: 70px;
-}
-
-.bottom.right.square {
-    right: 20px;
+    background-color: #9ec5e8;
 }
