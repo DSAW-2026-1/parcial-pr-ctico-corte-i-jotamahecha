@@ -1,70 +1,52 @@
 .container {
   width: 400px;
   height: 300px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  background-color: #1f3a5f; /* azul oscuro pero suave */
-  padding: 10px;
+  background-color: #1f3a5f; /* azul oscuro suave */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 /* CADA ESQUINA */
 .corner {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  gap: 10px;
 }
 
-/* ESTILO BASE DE LAS FIGURAS */
+/* ESQUINAS SUPERIORES */
+.top-left {
+  flex-direction: row; /* [□][○] */
+}
+
+.top-right {
+  flex-direction: row-reverse; /* [○][□] */
+}
+
+/* ESQUINAS INFERIORES */
+.bottom-left {
+  flex-direction: row; /* [○][□] */
+}
+
+.bottom-right {
+  flex-direction: row-reverse; /* [□][○] */
+}
+
+/* ELEMENTOS */
 .item {
-  width: 60px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
-/* COLORES */
+/* CUADRADOS */
 .square {
-  background-color: #8ecae6; /* azul claro */
+  background-color: #8ecae6;
 }
 
+/* CÍRCULOS PERFECTOS */
 .circle {
-  background-color: #f4a7b9; /* rosado suave */
-  border-radius: 50%;
-}
-
-/* ───── PARTE SUPERIOR ───── */
-/* Esquina superior izquierda */
-.corner:nth-child(1) .header {
-  background-color: #8ecae6;
-}
-.corner:nth-child(1) .footer {
   background-color: #f4a7b9;
   border-radius: 50%;
-}
-
-/* Esquina superior derecha */
-.corner:nth-child(2) .header {
-  background-color: #8ecae6;
-}
-.corner:nth-child(2) .footer {
-  background-color: #f4a7b9;
-  border-radius: 50%;
-}
-
-/* ───── PARTE INFERIOR (orden invertido) ───── */
-/* Esquina inferior izquierda */
-.corner:nth-child(3) .header {
-  background-color: #f4a7b9;
-  border-radius: 50%;
-}
-.corner:nth-child(3) .footer {
-  background-color: #8ecae6;
-}
-
-/* Esquina inferior derecha */
-.corner:nth-child(4) .header {
-  background-color: #f4a7b9;
-  border-radius: 50%;
-}
-.corner:nth-child(4) .footer {
-  background-color: #8ecae6;
 }
